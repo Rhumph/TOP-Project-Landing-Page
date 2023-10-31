@@ -100,6 +100,9 @@ button {
     
 }
 
+img { 
+    width: 400px;
+}
 .content-p1 { 
     background-color: whitesmoke;
     display: flex;
@@ -167,9 +170,28 @@ button {
     display: flex;
     flex-direction: column;
     width: 800px;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
-    padding: 80px;
+    padding: 120px;
+}
+
+.quote-text{ 
+    font-size: 36px;
+    font-style:italic;
+    color: #1f2937;
+
+}
+
+.quote-attribution-container { 
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.quote-attribution { 
+    font-size: 20px;
+    font-weight: bold;
+    color: #1f2937;
 }
 
 .content-p3 { 
@@ -181,12 +203,40 @@ button {
     padding: 100px;
 }
 
-.call-to-action-button { 
+.call-to-action-button-card { 
     background-color: #3882f6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
     color: whitesmoke;
     font-size: 30px;
-    padding: 40px;
+    padding: 30px 120px;
     border-radius: 10px;
+    gap: 150px;
+}
+
+.call-to-action-button { 
+    font-size: 24px;
+}
+
+.left-side-elements { 
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding: 0px;
+}
+
+.right-side-elements { 
+    
+}
+
+.sign-up { 
+    border-radius: 7px;
+    padding: 7px 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #f9faf8;
 }
 
 .footer { 
